@@ -1,6 +1,6 @@
 var ctx = document.getElementById('myChart');
 var myChart = new Chart(ctx, {
-    type: 'bar',
+    type: 'horizontalBar',
     data: {
         labels: ['1', '12', '2', '24', '4', '6', '72', '8'],
         datasets: [{
